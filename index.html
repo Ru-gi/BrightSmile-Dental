@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BrightSmile Dental</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+    <div class="logo">
+        BrightSmile Dental
+    </div>
+
+    <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+    >☰</button>
+
+    <nav id="primary-navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-small">WELCOME TO BRIGHTSMILE DENTAL</p>
+            <h1>Your Smile, Our Priority</h1>
+            <p class="hero-text">Professional dental care for a healthy, confident smile.</p>
+            <a href="#" class="hero-button">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="dentist-about.jpg" alt="Dental professional in a modern clinic">
+        </div>
+
+        <div class="about-content">
+            <p class="section-small">ABOUT US</p>
+            <h2>Caring for Your Smile</h2>
+            <p>At BrightSmile Dental, we provide professional and friendly dental care in a comfortable modern environment.</p>
+            <p>Our goal is to help every patient maintain a healthy, confident smile through quality dental care.</p>
+            <a href="#" class="about-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+    <section class="services" id="services">
+        <div class="services-heading">
+            <p class="section-small">OUR SERVICES</p>
+            <h2>Complete Dental Care</h2>
+            <p>We provide professional dental services to help you maintain a healthy and confident smile.</p>
+        </div>
+
+        <div class="service-cards">
+            <div class="service-card">
+                <div class="service-icon">🦷</div>
+                <h3>General Dentistry</h3>
+                <p>Quality dental care for your everyday oral health and a healthy smile.</p>
+                <a href="#">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Teeth Whitening</h3>
+                <p>Brighten your smile with professional teeth whitening care.</p>
+                <a href="#">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">😁</div>
+                <h3>Dental Cleaning</h3>
+                <p>Keep your teeth clean and your smile fresh with regular professional cleaning.</p>
+                <a href="#">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="why-us">
+        <div class="why-content">
+            <p class="section-small">WHY CHOOSE US</p>
+            <h2>Dental Care You Can Trust</h2>
+            <p>We are committed to providing comfortable, professional and friendly dental care for every patient.</p>
+
+            <div class="why-items">
+                <div class="why-item">
+                    <div class="why-icon">✓</div>
+                    <div>
+                        <h3>Experienced Care</h3>
+                        <p>Professional dental care focused on your needs.</p>
+                    </div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon">✓</div>
+                    <div>
+                        <h3>Modern Equipment</h3>
+                        <p>A clean clinic with modern dental technology.</p>
+                    </div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon">✓</div>
+                    <div>
+                        <h3>Friendly Service</h3>
+                        <p>We make your dental visit comfortable and welcoming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <p class="section-small">CONTACT US</p>
+            <h2>Book Your Dental Visit</h2>
+            <p>Have a question or want to book an appointment? Get in touch with our friendly team.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>📞 021 123 4567</p>
+                <p>📧 info@brightsmiledental.co.za</p>
+                <p>📍 Cape Town, South Africa</p>
+                <p>🕒 Mon - Fri: 08:00 - 17:00</p>
+            </div>
+
+            <form class="contact-form" id="contact-form" aria-describedby="contact-form-status">
+                <label for="contact-name">Your Name</label>
+                <input id="contact-name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
+
+                <label for="contact-email">Your Email</label>
+                <input id="contact-email" name="email" type="email" placeholder="Your Email" autocomplete="email" required>
+
+                <label for="contact-phone">Your Phone (optional)</label>
+                <input id="contact-phone" name="phone" type="tel" placeholder="Your Phone" autocomplete="tel">
+
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Open Email App</button>
+
+                <p class="form-status" id="contact-form-status" role="status" aria-live="polite">
+                    Submitting opens your email app with the message ready to send.
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">BrightSmile Dental</div>
+            <p>Professional dental care for a healthy, confident smile.</p>
+            <a class="whatsapp-link" href="https://wa.me/27814458819?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20BrightSmile%20Dental." target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 BrightSmile Dental. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
